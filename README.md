@@ -1,4 +1,4 @@
-# Testing the App with Token:
+# Testing the App with Token :
 You can test your webhook using curl with the correct token:
 
 ``` bash
@@ -9,7 +9,7 @@ curl -X POST http://localhost:5000/webhook \
 ```
 
 
-# Testing the app with api key
+# Testing the app with api key :
 
 ``` bash
 curl -X POST http://localhost:5000/webhook \
@@ -18,7 +18,7 @@ curl -X POST http://localhost:5000/webhook \
 -d '{"key": "value"}'
 ```
 
-# Testing the app with jwt
+# Testing the app with jwt :
 
 Generate Token:
 
